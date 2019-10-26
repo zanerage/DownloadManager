@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DownloadManager</string>
+    <string name="download_file">Download File</string>
+    <string name="view_downloads">View Downloads</string>
 </resources>
