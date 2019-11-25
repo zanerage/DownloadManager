@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
         dm = (DownloadManager)getSystemService(DOWNLOAD_SERVICE);
 
-        DownloadManager.Request request = new DownloadManager.Request(Uri.parse("http://mario-antolovic.com/testing/testing.mp4"));
+        DownloadManager.Request request = new DownloadManager.Request(Uri.parse("http://mario-antolovic.com/testing.mp4"));
 
          queid = dm.enqueue(request);
     }
